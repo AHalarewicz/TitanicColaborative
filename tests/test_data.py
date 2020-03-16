@@ -68,7 +68,6 @@ def test_extract_title():
                    'the Countess': 'Royalty'}}
     )
     expected['Title'] = expected['Title'].astype('category')
-    result['Title'] = result['Title'].astype('category')
     result = result.sort_index()
  
 
